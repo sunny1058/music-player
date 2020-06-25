@@ -1,0 +1,853 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Music Player</title>
+        <link rel="stylesheet" type="text/css" href="musicplayer.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <header class="header">
+            <div style="display:flex;justify-content: :space-around;position:relative;">
+                <div class="studio">
+                <i class="fab fa-studiovinari"></i>
+               </div>
+               <div class="studio-name">
+                <span style="font-family:cursive">Sunny</span><br>
+                <span >Studio</span>
+               </div>
+            </div>
+            <div class="home">
+                <a href="musicplayer-coldplay.html">Cold-play</a>
+            </div>
+            
+            <div class="fav">
+                <span>Favourites</span>
+            </div>
+            <div class="search">
+                <div class="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                
+                <input id="search-bar" type="text" placeholder="search">
+                <div class="mic-icon">
+                    <i class="fas fa-microphone-alt"></i>
+                </div>
+            </div>
+            <div class="notification">
+                <i class="fas fa-bell"></i>
+            </div>
+            <div class="header-icon">
+                <img src="https://lh3.googleusercontent.com/-YrKo0i0_OHU/Wwjw5982oHI/AAAAAAAAClo/_tmgsNWY620efYlkto-7wrSg_yiAJjukgCEwYBhgL/w138-h140-p/20180414_174836.jpg">
+            </div>
+        </header>
+        <div class="full-content" >
+        <div class="main-content">
+            <div class="blog-img">
+               <div class="blogger">
+                <img src="https://1.bp.blogspot.com/-VA77Gi8l8F4/XqPjDKMRMrI/AAAAAAAAAJQ/QZAuJ-jpGEEgRg2BnaebtSYPZos9Yh9awCLcBGAsYHQ/s640/tutt-chali-yaari-lyrics-maninder-buttar.jpg"alt="connect to internet">
+               </div>
+               <div class="blogger">
+                <img src="https://wallpapercave.com/wp/wp4504552.jpg">
+               </div>
+               <div class="blogger">
+                <img src="https://i.ytimg.com/vi/8M7ncADCn1E/maxresdefault.jpg">
+              </div>
+          </div>   
+          <div class="latest-releases">
+              <h2 class="heading" >Latest Release</h2>
+              <div class="list-container">
+              <div class="latest-list">
+                  <div class="list-image">
+                      <input type="checkbox" name="music-player" id="play-music">
+                      <label for="play-music">
+                          <img src="https://infinitytravelblog0.files.wordpress.com/2018/01/onism.png?w=800">
+                          <div class="btn">
+                              <i class="fas fa-play"></i>
+                          </div>
+                      </label>
+                      <div class="play-box">
+                            <div class="play-left">
+                                <div class="play-image">
+                                     <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                                </div>
+                                <div class="play-name">
+                                   <span>mahadeva</span> 
+                                </div>
+                                <div class="play-icon">
+                                    <div class="favourite">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="ban">
+                                        <i class="fas fa-ban"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="play-middle">
+                                <div class="play-btn">
+                                    <div class="shuffle">
+                                        <i class="fas fa-random"></i>
+                                    </div>
+                                    <div class="backward">
+                                        <i class="fas fa-backward"></i>
+                                    </div>
+                                    <div class="pause-circle">
+                                        <i class="far fa-pause-circle"></i>
+                                    </div>
+                                    <div class="forward">
+                                        <i class="fas fa-forward"></i>
+                                    </div>
+                                    <div class="repeat">
+                                        <i class="fas fa-sync"></i>
+                                    </div>
+                                </div>
+                                <div class="play-bar">
+                                    <div class="time1">
+                                        <span>1:40</span>
+                                    </div>
+                                    <div class="horizontal">
+                                    </div>
+                                    <div class="time1">
+                                        <span>4:12</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="play-right">
+                                <div class="sliders">
+                                    <i class="fas fa-sliders-h"></i>
+                                </div>
+                                <div class="desktop">
+                                    <i class="fas fa-desktop"></i>
+                                </div>
+                                <div class="volume">
+                                    <i class="fas fa-volume-up"></i>
+                                </div>
+                                <div class="horizontal">
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="list-name">
+                      <h2>Onism</h2>
+                      <h4 style="font-weight: 100;font-family: fantasy">OCT,23 2017</h4>
+                  </div>
+                  <div class="accordian">
+                      <input id="check1"type="checkbox">
+                      <label for="check1"><i class="fas fa-ellipsis-h"></i></label>
+                      <div class="elements">
+                          <div class="elem">
+                              <div class="elem-icon"><i class="far fa-play-circle"></i></div>
+                              <p> Play Now</p>
+                          </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-plus-square"></i></div>
+                              <p> Add To Queue</p>
+                          </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-heart"></i></div>
+                              <p> Add To Favourite</p>
+                         </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-info-circle"></i></div>
+                              <p> Get Info</p>
+                          </div>
+                      </div>
+                      <p style="color:aliceblue">4:44</p>
+                      
+                  </div>
+              </div>
+              <div class="latest-list">
+                  <div class="list-image">
+                      <input type="checkbox" name="music-player" id="play-music">
+                      <label for="play-music">
+                          <img src="https://infinitytravelblog0.files.wordpress.com/2018/01/onism.png?w=800">
+                          <div class="btn">
+                              <i class="fas fa-play"></i>
+                          </div>
+                      </label>
+                      <div class="play-box">
+                            <div class="play-left">
+                                <div class="play-image">
+                                     <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                                </div>
+                                <div class="play-name">
+                                   <span>mahadeva</span> 
+                                </div>
+                                <div class="play-icon">
+                                    <div class="favourite">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="ban">
+                                        <i class="fas fa-ban"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="play-middle">
+                                <div class="play-btn">
+                                    <div class="shuffle">
+                                        <i class="fas fa-random"></i>
+                                    </div>
+                                    <div class="backward">
+                                        <i class="fas fa-backward"></i>
+                                    </div>
+                                    <div class="pause-circle">
+                                        <i class="far fa-pause-circle"></i>
+                                    </div>
+                                    <div class="forward">
+                                        <i class="fas fa-forward"></i>
+                                    </div>
+                                    <div class="repeat">
+                                        <i class="fas fa-sync"></i>
+                                    </div>
+                                </div>
+                                <div class="play-bar">
+                                    <div class="time1">
+                                        <span>1:40</span>
+                                    </div>
+                                    <div class="horizontal">
+                                    </div>
+                                    <div class="time1">
+                                        <span>4:12</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="play-right">
+                                <div class="sliders">
+                                    <i class="fas fa-sliders-h"></i>
+                                </div>
+                                <div class="desktop">
+                                    <i class="fas fa-desktop"></i>
+                                </div>
+                                <div class="volume">
+                                    <i class="fas fa-volume-up"></i>
+                                </div>
+                                <div class="horizontal">
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="list-name">
+                      <h2>Onism</h2>
+                      <h4 style="font-weight: 100;font-family: fantasy">OCT,23 2017</h4>
+                  </div>
+                  <div class="accordian">
+                      <input id="check2"type="checkbox">
+                      <label for="check2"><i class="fas fa-ellipsis-h"></i></label>
+                      <div class="elements">
+                          <div class="elem">
+                              <div class="elem-icon"><i class="far fa-play-circle"></i></div>
+                              <p> Play Now</p>
+                          </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-plus-square"></i></div>
+                              <p> Add To Queue</p>
+                          </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-heart"></i></div>
+                              <p> Add To Favourite</p>
+                         </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-info-circle"></i></div>
+                              <p> Get Info</p>
+                          </div>
+                      </div>
+                      <p style="color:aliceblue">4:44</p>
+                      
+                  </div>
+              </div>
+              <div class="latest-list">
+                  <div class="list-image">
+                      <input type="checkbox" name="music-player" id="play-music">
+                      <label for="play-music">
+                          <img src="https://infinitytravelblog0.files.wordpress.com/2018/01/onism.png?w=800">
+                          <div class="btn">
+                              <i class="fas fa-play"></i>
+                          </div>
+                      </label>
+                  </div>
+                  <div class="list-name">
+                      <h2>Onism</h2>
+                      <h4 style="font-weight: 100;font-family: fantasy">OCT,23 2017</h4>
+                  </div>
+                  <div class="accordian">
+                      <input id="check3"type="checkbox">
+                      <label for="check3"><i class="fas fa-ellipsis-h"></i></label>
+                      <div class="elements">
+                          <div class="elem">
+                              <div class="elem-icon"><i class="far fa-play-circle"></i></div>
+                              <p> Play Now</p>
+                          </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-plus-square"></i></div>
+                              <p> Add To Queue</p>
+                          </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-heart"></i></div>
+                              <p> Add To Favourite</p>
+                         </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-info-circle"></i></div>
+                              <p> Get Info</p>
+                          </div>
+                      </div>
+                      <p style="color:aliceblue">4:44</p>
+                      
+                  </div>
+              </div>
+              <div class="latest-list">
+                  <div class="list-image">
+                      <input type="checkbox" name="music-player" id="play-music">
+                      <label for="play-music">
+                          <img src="https://infinitytravelblog0.files.wordpress.com/2018/01/onism.png?w=800">
+                          <div class="btn">
+                              <i class="fas fa-play"></i>
+                          </div>
+                      </label>
+                      <div class="play-box">
+                            <div class="play-left">
+                                <div class="play-image">
+                                     <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                                </div>
+                                <div class="play-name">
+                                   <span>mahadeva</span> 
+                                </div>
+                                <div class="play-icon">
+                                    <div class="favourite">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="ban">
+                                        <i class="fas fa-ban"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="play-middle">
+                                <div class="play-btn">
+                                    <div class="shuffle">
+                                        <i class="fas fa-random"></i>
+                                    </div>
+                                    <div class="backward">
+                                        <i class="fas fa-backward"></i>
+                                    </div>
+                                    <div class="pause-circle">
+                                        <i class="far fa-pause-circle"></i>
+                                    </div>
+                                    <div class="forward">
+                                        <i class="fas fa-forward"></i>
+                                    </div>
+                                    <div class="repeat">
+                                        <i class="fas fa-sync"></i>
+                                    </div>
+                                </div>
+                                <div class="play-bar">
+                                    <div class="time1">
+                                        <span>1:40</span>
+                                    </div>
+                                    <div class="horizontal">
+                                    </div>
+                                    <div class="time1">
+                                        <span>4:12</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="play-right">
+                                <div class="sliders">
+                                    <i class="fas fa-sliders-h"></i>
+                                </div>
+                                <div class="desktop">
+                                    <i class="fas fa-desktop"></i>
+                                </div>
+                                <div class="volume">
+                                    <i class="fas fa-volume-up"></i>
+                                </div>
+                                <div class="horizontal">
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="list-name">
+                      <h2>Onism</h2>
+                      <h4 style="font-weight: 100;font-family: fantasy">OCT,23 2017</h4>
+                  </div>
+                  <div class="accordian">
+                      <input id="check4"type="checkbox">
+                      <label for="check4"><i class="fas fa-ellipsis-h"></i></label>
+                      <div class="elements">
+                          <div class="elem">
+                              <div class="elem-icon"><i class="far fa-play-circle"></i></div>
+                              <p> Play Now</p>
+                          </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-plus-square"></i></div>
+                              <p> Add To Queue</p>
+                          </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-heart"></i></div>
+                              <p> Add To Favourite</p>
+                         </div>
+                          <div class="elem">
+                              <div class="elem-icon"><i class="fas fa-info-circle"></i></div>
+                              <p> Get Info</p>
+                          </div>
+                      </div>
+                      <p style="color:aliceblue">4:44</p>
+                      
+                  </div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="popular-artist">
+              <h2 class="heading">Popular Artist</h2>
+              <div class="Popular-artist-container">
+                  <div class="popular-artist-content">
+                      <div class="popular-artist-image">
+                          <img src="https://assets.capitalfm.com/2018/07/ed-sheeran-press-photo-2018-1519211115-editorial-long-form-0.png">
+                      </div>
+                      <span>Ed Sheeran</span>
+                  </div>
+                  <div class="popular-artist-content">
+                      <div class="popular-artist-image">
+                          <img src="https://i.scdn.co/image/aa32d6d4ca2467974403518dd3ebfe8831c5ced1">
+                      </div>
+                      <span>Bruno Mars</span>
+                  </div>
+                  <div class="popular-artist-content">
+                      <div class="popular-artist-image">
+                          <a href="musicplayer-coldplay.html">
+                              <img src="https://www.cheatsheet.com/wp-content/uploads/2019/09/Jonny-Buckland-Chris-Martin-Guy-Berryman-and-Will-Champion.jpg">
+                               <div class="btn">
+                                 <i class="fas fa-play"></i>
+                               </div>
+                          </a>
+                          
+                      </div>
+                      <span>Cold Play</span>
+                  </div>
+                  <div class="popular-artist-content">
+                      <div class="popular-artist-image">
+                          <img src="https://www.biography.com/.image/t_share/MTQyMDA0MzE3MTQ1MDE1MzU4/zayn-malik_gettyimages-539071316jpg.jpg">
+                      </div>
+                      <span>Zayn</span>
+                  </div>
+                  <div class="popular-artist-content">
+                      <div class="popular-artist-image">
+                          <img src="https://i.pinimg.com/originals/fb/dc/c6/fbdcc6e2bde05d5a61ff419b7bfe30f5.jpg">
+                      </div>
+                      <span>Charlie Puth </span>
+                  </div>
+                  <div class="popular-artist-content">
+                      <div class="popular-artist-image">
+                          <img src="https://static.billboard.com/files/media/Imagine-Dragons-press-photo-by-Eliot-Lee-Hazel-2018-billboard-1548-1024x677.jpg">
+                      </div>
+                      <span>Imagine Dragon</span>
+                  </div>
+              </div>
+          </div>
+           <div class="station">
+               <h2 class="heading">Radio Station</h2>
+               <div class="station-container">
+                   <div class="station-content">
+                   <div class="popular-artist-image" >
+                       <img src="https://image.shutterstock.com/image-photo/vintage-audio-cassette-loose-tape-260nw-191838512.jpg">
+                   </div>
+                   <span>Love</span>
+                   </div>
+                   <div class="station-content">
+                   <div class="popular-artist-image">
+                       <img src="https://image.shutterstock.com/image-photo/retro-outdated-portable-stereo-boombox-260nw-720777676.jpg">
+                   </div>
+                   <span>Retro</span>
+                   </div>
+                   <div class="station-content">
+                   <div class="popular-artist-image">
+                       <img src="https://static01.nyt.com/images/2018/12/30/arts/30yearend-pop2/merlin_147857643_8e0c5c65-4549-4946-b51d-49425b9dcf24-articleLarge.jpg?quality=75&auto=webp&disable=upscale">
+                   </div>
+                   <span>Pop</span>
+                   </div>
+                   <div class="station-content">
+                   <div class="popular-artist-image">
+                       <img src="https://images.unsplash.com/photo-1570872626485-d8ffea69f463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+                   </div>
+                   <span>Chill</span>
+                   </div>
+                   <div class="station-content">
+                   <div class="popular-artist-image">
+                       <img src="https://img.etimg.com/photo/msid-74747053/for-miles-a-great-bodyweight-workout-would-include-squats-push-ups-walking-lunges-.jpg"alt="connect to internet">
+                   </div>
+                   <span>Work Out</span>
+                   </div>
+                   <div class="station-content">
+                   <div class="popular-artist-image">
+                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjdMNab68E0GHosL2Df1nEdiK_M3IqDEvSzlBKwG9maiucMYKY&usqp=CAU">
+                   </div>
+                   <span>Rock</span>
+                   </div>
+               </div>
+            </div>
+            <div class="song-mode-container">
+                <div class="song-mode-content">
+                    <div class="song-mode-image">
+                        <img src="https://images.unsplash.com/photo-1559060680-36abfac01944?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+                    </div>
+                    <span>Party</span>
+                </div>
+                <div class="song-mode-content">
+                    <div class="song-mode-image">
+                        <img src="https://i.pinimg.com/originals/3c/41/ef/3c41ef8054535a2fc2aa6dafcbf9c47a.jpg">
+                    </div>
+                    <span>Electronic</span>
+                </div>
+                <div class="song-mode-content">
+                    <div class="song-mode-image">
+                        <img src="https://www.cars24.com/blog/wp-content/uploads/2018/07/roadtrip1.jpg">
+                    </div>
+                    <span>Road Trip</span>
+                </div>
+            </div>
+            <div class="english">
+                <h2 class="heading">Latest English</h2>
+                <div class="english-container">
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/61129/pexels-photo-61129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/1019475/spring-pink-tulip-flower-1019475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/1019475/spring-pink-tulip-flower-1019475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/61129/pexels-photo-61129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                </div>
+            </div>
+            <div class="english">
+                <h2 class="heading">Latest Hindi</h2>
+                <div class="english-container">
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/61129/pexels-photo-61129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/1019475/spring-pink-tulip-flower-1019475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/1019475/spring-pink-tulip-flower-1019475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                    <div class="english-content">
+                        <div class="english-images">
+                            <img src="https://images.pexels.com/photos/61129/pexels-photo-61129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <span>Onism</span><br>
+                        <span Style="font-weight:100,font-family:serif">OCT 23,2017</span>
+                    </div>
+                </div>
+            </div>
+       </div>
+        <div class="queue-content">
+            <div class="queue-header">
+                <div class="queue-heading">
+                    <span>Queue</span>
+                </div>
+               <div class="queue-accordian">
+                   <input type="checkbox" id="queue-acc">
+                   <label for="queue-acc">Queue</label>
+                   <div class="queue-acc-elements">
+                       <div class="queue-acc-elem">
+                            <p>Playlist</p>
+                       </div>
+                       <div class="queue-acc-elem">
+                            <p >Favourite Songs</p>
+                       </div>
+                  </div>
+               </div>
+            </div>
+            <div class="queue-container">
+              <div class="queue-item">
+                <div class="queue-number">
+                    <span>01</span>
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/61129/pexels-photo-61129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">Mirage</span><br>
+                    <span style="color:lightgrey;font-weight:100">Else</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+            <div class="queue-item">
+                <div class="queue-number">
+                    <span>02</span>
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">Worry Bout Us</span><br>
+                    <span style="color:lightgrey;font-weight:100">Roise lowe</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+            <div class="queue-item">
+                <div class="queue-number"> 
+                        <span>03</span> 
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/1019475/spring-pink-tulip-flower-1019475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">New Skin</span><br>
+                    <span style="color:lightgrey;font-weight:100">Flumi</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+                <div class="queue-item">
+                <div class="queue-number">
+                    <span>04</span>
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/61129/pexels-photo-61129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">Mirage</span><br>
+                    <span style="color:lightgrey;font-weight:100">Else</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+            <div class="queue-item">
+                <div class="queue-number">
+                    <span>05</span>
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">Worry Bout Us</span><br>
+                    <span style="color:lightgrey;font-weight:100">Roise lowe</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+            <div class="queue-item">
+                <div class="queue-number"> 
+                        <span>06</span> 
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/1019475/spring-pink-tulip-flower-1019475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">New Skin</span><br>
+                    <span style="color:lightgrey;font-weight:100">Flumi</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+                <div class="queue-item">
+                <div class="queue-number">
+                    <span>07</span>
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/61129/pexels-photo-61129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">Mirage</span><br>
+                    <span style="color:lightgrey;font-weight:100">Else</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+            <div class="queue-item">
+                <div class="queue-number">
+                    <span>08</span>
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">Worry Bout Us</span><br>
+                    <span style="color:lightgrey;font-weight:100">Roise lowe</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+            <div class="queue-item">
+                <div class="queue-number"> 
+                        <span>09</span> 
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/1019475/spring-pink-tulip-flower-1019475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">New Skin</span><br>
+                    <span style="color:lightgrey;font-weight:100">Flumi</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+                <div class="queue-item">
+                <div class="queue-number">
+                    <span>10</span>
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/61129/pexels-photo-61129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">Mirage</span><br>
+                    <span style="color:lightgrey;font-weight:100">Else</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+            <div class="queue-item">
+                <div class="queue-number">
+                    <span>11</span>
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">Worry Bout Us</span><br>
+                    <span style="color:lightgrey;font-weight:100">Roise lowe</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+            <div class="queue-item">
+                <div class="queue-number"> 
+                        <span>12</span> 
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/1019475/spring-pink-tulip-flower-1019475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">New Skin</span><br>
+                    <span style="color:lightgrey;font-weight:100">Flumi</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+                <div class="queue-item">
+                <div class="queue-number">
+                    <span>13</span>
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/61129/pexels-photo-61129.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">Mirage</span><br>
+                    <span style="color:lightgrey;font-weight:100">Else</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+            <div class="queue-item">
+                <div class="queue-number">
+                    <span>14</span>
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">Worry Bout Us</span><br>
+                    <span style="color:lightgrey;font-weight:100">Roise lowe</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+            <div class="queue-item">
+                <div class="queue-number"> 
+                        <span>03</span> 
+                </div>
+                <div class="queue-image">
+                    <img src="https://images.pexels.com/photos/1019475/spring-pink-tulip-flower-1019475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="queue-name">
+                    <span style="color:aliceblue;font-weight:bolder;letterspacing:0.2rem;">New Skin</span><br>
+                    <span style="color:lightgrey;font-weight:100">Flumi</span>
+                </div>
+                <div class="queue-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </div>
+       </div>
+     </div>
+    </body>
+</html>
